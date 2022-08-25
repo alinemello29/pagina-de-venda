@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body, html {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+header {
+    height: 220px;
+    background: linear-gradient (180deg, #ffffff 0%, #ffffff 100%);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+a, a:hover, a:visited {
+    color: unset;
+    text-decoration: none;
+}
+
+.Alinemeta-logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Alinemeta-logo-container img {
+    width: 235px;
+
+}
+
+.Alinemeta-logo-container h1 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.Alinemeta-logo-container p {
+    font-size: 14px;
+    weight: 300;
+}
+
+.Alinemeta-card{
+    background-color: #0bf01e;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.Alinemeta-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#sales {
+    padding: 40px 10px;
+}
+
+.Alinemeta-sales-title {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.alinemeta-form-control-container {
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.Alinemeta-form-control {
+    width: 100%;
+    height: 46px;
+    background-color: rgb(239, 243, 10);
+    border: 1px solid #f7f307;
+    border-radius: 5px;
+    color: #000000;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.Alinemeta-sales-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.Alinemeta-sales-table thead {
+    height: 55px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.Alinemta-sales-table tbody {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000200;
+    text-align: center;
+}
+
+.Alinemta-sales-table tbody tr {
+    height: 74px;
+    border-top: 1px solid #000000;
+}
+
+.Alinemta-sales-table tbody tr:hover > td {
+    background-color: #000000;
+}
+
+.Alinemeta-sales-table tbody tr:nth-child(odd) {
+    background-color: #e0f009;
+}
+
+.Alinemeta-red-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Alinemeta-red-btn {
+    height: 45px;
+    width: 45px;
+    background: rgba(0, 0, 0, 0.952);
+    border: 1px solid #f0ecec;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Alinemeta-red-btn img {
+    width: 19px;
+}
+
+.melo97 {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .melo97 {
+        display: table-cell;
+    }
+
+    .Alinemeta-card {
+        padding: 35px;
+    }
+
+    .Alinemeta-sales-table tbody tr {
+        height: 55px;
+    }
+
+    .Alinemeta-sales-table tbody {
+        font-size: 18px;
+    }
+
+}
+
+.melo97 {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .melo97 {
+        display: table-cell;
+    }
+}
